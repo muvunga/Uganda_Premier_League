@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Uganda Premier League</string>
+    <string name="Content">visit our website for more  details about the bla bla bla shit</string>
+    <string name="ContentNews">bla bla bla bla shit shit shit shit shit</string>
+    <string name="gameOn">ON-GOING GAMES</string>
+    <string name="TOAst">clicked</string>
+    <string name="table_layout_header">Teams</string>
+    <string name="table_layout_position">Points</string>
+    <string name="table_layout1">KCCA FC</string>
+    <string name="table_layout3">3</string>
+    <string name="All">All Results</string>
+</resources>

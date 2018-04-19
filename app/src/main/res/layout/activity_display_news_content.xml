@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_display_news_content"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    tools:context="com.example.hangi.fufa.DisplayNewsContent"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/newsImageView"
+        android:scaleType="centerCrop"
+
+        />
+    
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/TitleNews"
+                android:layout_centerHorizontal="true"
+                android:text="ANY NEWS"
+                android:textStyle="bold"
+                android:textColor="#000"
+
+                />
+
+           <ScrollView
+               android:layout_below="@id/TitleNews"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginTop="9dp">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="9dp"
+                   android:id="@+id/contentnews"
+                   android:textStyle="normal"
+                   android:layout_marginLeft="18dp"
+                   android:textSize="15sp"
+                   android:layout_below="@id/TitleNews"
+                   />
+           </ScrollView>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "252210543446",
+    "firebase_url": "https://upla-3af90.firebaseio.com",
+    "project_id": "upla-3af90",
+    "storage_bucket": "upla-3af90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252210543446:android:70200cb2524bde62",
+        "android_client_info": {
+          "package_name": "com.example.hangi.fufa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252210543446-h79t0d22a11m8h1rrossvvm1kqo0n67a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hangi.fufa",
+            "certificate_hash": "d52cc997d0633f39efcf33b948299b6d3fe18304"
+          }
+        },
+        {
+          "client_id": "252210543446-s3pdpip48df66r2pmbuh12vqjjp2rkda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCYPhqKdZeZSJ1-JingXHYPKsB2qJlpbo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252210543446-s3pdpip48df66r2pmbuh12vqjjp2rkda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
